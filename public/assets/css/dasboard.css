@@ -1,0 +1,109 @@
+/*
+=========================================================
+Dashboard Style
+=========================================================
+*/
+
+body{
+
+    background:#f8f9fa;
+
+}
+
+/* ==========================================
+Card Statistik
+========================================== */
+
+.stat-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    transition:.25s;
+
+    overflow:hidden;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 .8rem 1.5rem rgba(0,0,0,.12);
+
+}
+
+.icon-box{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+}
+
+/* ==========================================
+Table
+========================================== */
+
+.table{
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr{
+
+    transition:.2s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#f5f7fb;
+
+}
+
+/* ==========================================
+Badge
+========================================== */
+
+.badge{
+
+    padding:8px 12px;
+
+    border-radius:20px;
+
+}
+
+/* ==========================================
+Card Search
+========================================== */
+
+.search-card{
+
+    border:none;
+
+    border-radius:15px;
+
+}
+
+/* ==========================================
+Button
+========================================== */
+
+.btn{
+
+    border-radius:10px;
+
+}
